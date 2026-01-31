@@ -1,0 +1,31 @@
+:root {
+
+    --primary-color: #055a05; /* Dark Green */
+    --secondary-color: #f4a261; /* warm sand */
+    --accent1-color: #264653; /* Deep Blue */
+    --accent2-color: #e9c46a; /* Soft Yellow */
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
