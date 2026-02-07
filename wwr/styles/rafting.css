@@ -179,7 +179,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  background-color: var(--accent1-color);
+  background-color: rgb(30, 30, 133);
   color: white;
 }
 
