@@ -193,3 +193,106 @@ footer {
   width: 40px;
   height: auto;
 }
+
+/* HEADER */
+header {
+    background-color: #b8a9d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid #000;
+    background-color: #eee;
+    color: #000;
+}
+
+/* COMPANY INFO */
+.company-header {
+    text-align: center;
+    margin: 20px 0;
+    padding: 0px;
+}   
+.company-header-h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color:white;
+}
+/* CONTACT GRID */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+
+.map iframe {
+    border: none;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.submit-btn {
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #aaa;
+}
+
+/* EMPLOYEE SECTION */
+.employees-section {
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.employees img {
+    width: 150px;
+    height: auto;
+}
+
+.employees figure {
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: #6638c7;
+    padding: 15px;
+    text-align: center;
+}
+
+.social img {
+    width: 30px;
+    margin: 0 5px;
+}

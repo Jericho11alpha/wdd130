@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | White Water Rafting Adventures</title>
+  <meta name="description" content="Contact White Water Rafting Adventures for reservations, general inquiries, or website suggestions. Find our address, phone number, email, and location map.">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/site_logo.jpg" alt="White Water Rafting Logo" width="150">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Company Info Centered -->
+        <section class="company-header">
+            <h2 class="company-header-h2">BobbyGee Rafting Company</h2>
+            <p>255 Street, Jamaica Road</p>
+            <p>Winneba, Central Region</p>
+            <p>+233 20 313 6799</p>
+            <p>info@whiteriverrafting.com</p>
+        </section>
+
+
+        <!-- Map + Form Section -->
+        <section class="contact-grid">
+
+            <!-- Google Map -->
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps?q=Kolob,California&output=embed"
+                    width="100%"
+                    height="350"
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="form-area">
+                <form action="#" method="post">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Placeholder" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Placeholder" required>
+
+                    <p><strong>Message Purpose</strong></p>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type here" rows="5" required></textarea>
+
+                    <label>
+                        <input type="checkbox" name="newsletter">
+                        Please Subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit" class="submit-btn">
+                        Get in Touch!
+                    </button>
+
+                </form>
+            </div>
+
+        </section>
+
+
+        <!-- Employee Section -->
+        <section class="employees-section">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employees">
+
+                <figure>
+                    <img src="images/profile3.jpg" alt="River Operations Manager">
+                    <figcaption>River Operations Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/profile4.jpg" alt="Customer Experience Director">
+                    <figcaption>Customer Experience Director</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/profile5.jpg" alt="Lead Adventure Guide">
+                    <figcaption>Lead Adventure Guide</figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+  <footer>
+    <p>©2026 🌴BobbyGee Rafting Company🌴 Kumasi, Ghana</p>
+    <nav class="socialmedia">
+        <a href="http://facebook.com">
+            <img src="images/facebook_logo.svg" alt="Facebook Logo" width="30">
+        </a>
+        <a href="http://linkedin.com">
+            <img src="images/linkedin_logo.svg" alt="LinkedIn Logo" width="30">
+        </a>
+        <a href="http://instagram.com">
+            <img src="images/instagram_logo.svg" alt="Instagram Logo" width="30">
+        </a>
+    </nav>
+  </footer>
+</body>
+</html>
