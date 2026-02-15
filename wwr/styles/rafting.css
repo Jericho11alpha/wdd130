@@ -9,13 +9,14 @@
 }
 
 header {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 16px;
     background-color: var(--accent1-color);
     color: white;
 }
+
 
 header img {
   width: 120px;
@@ -104,17 +105,16 @@ h2 {
 
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-  gap: 20px;
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 8px;
+nav a:hover {
+    background-color: white;
+    color: var(--accent1-color);
 }
 
 nav a:hover {
@@ -175,14 +175,8 @@ nav a:hover {
   margin-top: 5px;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px;
-  background-color: rgb(30, 30, 133);
-  color: white;
-}
+
+
 
 .socialmedia {
   display: flex;
@@ -194,14 +188,8 @@ footer {
   height: auto;
 }
 
-/* HEADER */
-header {
-    background-color: #b8a9d9;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
+
+
 
 .logo {
     width: 100px;
@@ -289,12 +277,15 @@ form textarea {
     text-align: center;
 }
 
-/* FOOTER */
 footer {
-    background-color: #6638c7;
-    padding: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--accent1-color);
+    color: white;
 }
+
 
 .social img {
     width: 30px;
