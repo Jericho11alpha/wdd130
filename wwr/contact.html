@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | White Water Rafting Adventures</title>
-  <meta name="description" content="Contact White Water Rafting Adventures for reservations, general inquiries, or website suggestions. Find our address, phone number, email, and location map.">
+  <meta name="author" content="Emmnauel Bonku">
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -22,8 +22,9 @@
     <main>
 
         <!-- Company Info Centered -->
+       
         <section class="company-header">
-            <h2 class="company-header-h2">BobbyGee Rafting Company</h2>
+            <h1 class="company-header-h1">BobbyGee Rafting Company</h1>
             <p>255 Street, Jamaica Road</p>
             <p>Winneba, Central Region</p>
             <p>+233 20 313 6799</p>
@@ -38,7 +39,7 @@
             <div class="map">
                 <iframe 
                     src="https://www.google.com/maps?q=Kolob,California&output=embed"
-                    width="100%"
+                    width="400"
                     height="350"
                     loading="lazy">
                 </iframe>
@@ -47,27 +48,30 @@
             <!-- Contact Form -->
             <div class="form-area">
                 <form action="#" method="post">
-
+                    
+                    <!-- Name -->
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Placeholder" required>
-
+                    
+                    <!-- Email -->
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Placeholder" required>
 
+                    <!-- Message Purpose -->
                     <p><strong>Message Purpose</strong></p>
 
                     <label>
-                        <input type="radio" name="purpose" value="general" required>
+                        <input type="radio" id="general" name="purpose" value="general" required>
                         General Inquiry
                     </label>
 
                     <label>
-                        <input type="radio" name="purpose" value="reservation">
+                        <input type="radio" id="reservation"name="purpose" value="reservation">
                         Reservation Question
                     </label>
 
                     <label>
-                        <input type="radio" name="purpose" value="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
                         Website Suggestion
                     </label>
 
@@ -75,7 +79,7 @@
                     <textarea id="message" name="message" placeholder="Type here" rows="5" required></textarea>
 
                     <label>
-                        <input type="checkbox" name="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter">
                         Please Subscribe me to the monthly newsletter
                     </label>
 
