@@ -329,12 +329,14 @@ footer {
 
 .newsletter {
     padding: 20px;
+    
 }
 
 .newsletter form {
     display: grid;
     gap: 10px;
     max-width: 400px;
+
 }
 
 
