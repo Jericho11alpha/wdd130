@@ -281,3 +281,68 @@ footer {
     width: 30px;
     margin: 0 5px;
 }
+
+
+/* Index Page */
+/* HERO SECTION */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-heading {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    color: white;
+    font-size: 3rem;
+    width: 100%;
+    height: auto;
+}
+
+
+/* CTA */
+
+.cta {
+    text-align: center;
+    padding: 30px;
+}
+
+.cta-button {
+    background-color: #0077cc;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+
+/* NEWSLETTER */
+
+.newsletter {
+    padding: 20px;
+}
+
+.newsletter form {
+    display: grid;
+    gap: 10px;
+    max-width: 400px;
+}
+
+
+/* GRID LAYOUT */
+
+.grid-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+}
